@@ -25,10 +25,13 @@ After:
 
 # Known Bugs
 
-A) After taking a screenshot, you will be opened a window in which you can crop the image using "+", but the window is black
+All fixed
 
 
 # Temporary Fix
 
-for bug A, minimize the window by pressing windows key, and reopen the window
+
+
+# Fixed Bugs
+1) After taking a screenshot, you will be opened a window in which you can crop the image using "+", but the window is black
 
