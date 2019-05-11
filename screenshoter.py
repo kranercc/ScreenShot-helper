@@ -1,10 +1,15 @@
-#hide window
-import win32gui, win32con
+'''
+Icon used is from google images, source: https://duckduckgo.com/?q=barry+bee+benson&atb=v161-1&iax=images&ia=images&iai=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F696766954409893888%2FLFx7rcQE.jpg
+Author: "@Krane"
+GMail: "kranehecaru@gmail.com"
 
-The_program_to_hide = win32gui.GetForegroundWindow()
-win32gui.ShowWindow(The_program_to_hide , win32con.SW_HIDE)
 
-#add text when entering the editor
+Keep in mind:
+
+If you are downloading the source code, you are not allowed to do edit the code in anyway shape or form.
+If you are going to sell this code as your own, contact me first and we can talk about it, if i don't respond you are not allowed to sell it
+
+'''
 
 from PIL import ImageGrab, Image
 import pygame, sys, os
@@ -95,9 +100,6 @@ def main():
 				Running = False
 				sys.exit()
 				break
-		if keyboard.is_pressed("q"):
-			exit();
-
 		screen.blit(background,(0,0))
 		drawer = liner(storeValues);
 
