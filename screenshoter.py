@@ -9,7 +9,6 @@ import mouse
 from time import sleep
 import cv2
 import numpy as np
-import tempfile
 
 #1 args since it needs to start systray
 def main(aa):
@@ -22,12 +21,6 @@ def main(aa):
 	takeSS();
 	screenshot = Image.open("temp.jpg");
 
-
-	def regionOfInterest(img, verticies):
-		mask = np.zeros_like(img);
-		cv2.fillPoly(mask, verticies, 255);
-		masked = cv2.bitwise_and(img, mask);
-		return masked;
 
 
 	def saver(bbox):
@@ -96,7 +89,7 @@ def main(aa):
 			os.system("del temp.jpg");
 			exit();
 
-			pygame.display.update()
+		pygame.display.update()
 
 
 while 1:
