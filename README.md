@@ -16,7 +16,10 @@ Before:
 ![alt text](https://github.com/kranercc/ScreenShot-helper/blob/master/images/before.png)
 
 
+
 After:
+
+
 ![alt text](https://github.com/kranercc/ScreenShot-helper/blob/master/images/screenShot.jpg)
 
 
