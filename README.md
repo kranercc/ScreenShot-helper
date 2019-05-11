@@ -34,4 +34,4 @@ All fixed
 
 # Fixed Bugs
 1) After taking a screenshot, you will be opened a window in which you can crop the image using "+", but the window is black
-
+2) Be able to crop it on a single direction (up to down). Now you can crop diagonaly
