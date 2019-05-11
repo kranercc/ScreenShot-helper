@@ -1,3 +1,11 @@
+#hide window
+import win32gui, win32con
+
+The_program_to_hide = win32gui.GetForegroundWindow()
+win32gui.ShowWindow(The_program_to_hide , win32con.SW_HIDE)
+
+#add text when entering the editor
+
 from PIL import ImageGrab, Image
 import pygame, sys, os
 from pygame.locals import *
@@ -8,12 +16,6 @@ from time import sleep
 import cv2
 import numpy as np
 
-#hide window
-import win32gui, win32con
-
-The_program_to_hide = win32gui.GetForegroundWindow()
-win32gui.ShowWindow(The_program_to_hide , win32con.SW_HIDE)
-#1 args since it needs to start systray
 
 def takeSS():
 	img = ImageGrab.grab((0,0,1920,1080));
@@ -82,8 +84,9 @@ def main():
 	#pygame.display.set_caption("ScreenShot@krane");
 
 	background = pygame.image.load("temp.jpg").convert()
-
-
+	pygame.font.init() 
+	myfont = pygame.font.SysFont('Comic Sans MS', 30)
+	textsurface = myfont.render('You are in the cropping process', False, (255, 255, 255))
 
 	while Running:
 		for event in pygame.event.get():
@@ -105,7 +108,10 @@ def main():
 			Running = False;
 			pygame.quit();
 		if Running != False:
+			
+			screen.blit(textsurface,(mouse.get_position()[0],mouse.get_position()[1]))
 			pygame.display.update()
+
 
 
 while 1:
