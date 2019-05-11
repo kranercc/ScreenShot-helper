@@ -10,7 +10,14 @@ It's using very little resources
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Dosn't requier administrative rights like any other tool that does this`
 
+# Example of what you can do
 
+Before:
+![alt text](https://github.com/kranercc/ScreenShot-helper/blob/master/images/before.png)
+
+
+After:
+![alt text](https://github.com/kranercc/ScreenShot-helper/blob/master/images/screenShot.jpg)
 
 
 # Known Bugs
