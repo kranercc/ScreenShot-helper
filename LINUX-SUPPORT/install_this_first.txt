@@ -1,0 +1,13 @@
+~----------------~ INSTALL USING PYTHON3 OR PIP3 ~------------------~
+
+			
+			pyscreenshot
+			   pygame
+			  keyboard
+			    mouse
+			python3-opencv
+			    numpy
+
+
+~----------------~ INSTALL USING PYTHON3 OR PIP3 ~------------------~
+
