@@ -5,9 +5,15 @@
 			   pygame
 			  keyboard
 			    mouse
-			python3-opencv
 			    numpy
 
 
 ~----------------~ INSTALL USING PYTHON3 OR PIP3 ~------------------~
 
+~----------------~ INSTALL USING APT-GET OR APT ~------------------~
+
+
+			python3-opencv
+
+
+~----------------~ INSTALL USING APT-GET OR APT ~------------------~
